@@ -16,6 +16,7 @@ then
     then
 cat <<EOF > "${HOME}/Library/KeyBindings/DefaultKeyBinding.dict"
 {
+    "^/" = "noop:";
     "@^\UF701" = "noop:";
     "@^\UF702" = "noop:";
     "@^\UF703" = "noop:";
